@@ -46,4 +46,3 @@ export class MyToken extends OP_20 {
         return writer;
     }
 }
-
