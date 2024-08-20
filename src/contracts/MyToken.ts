@@ -14,8 +14,8 @@ export class MyToken extends OP_20 {
     constructor() {
         const maxSupply: u256 = u128.fromString('100000000000000000000000000').toU256();
         const decimals: u8 = 18;
-        const name: string = 'MyToken';
-        const symbol: string = 'TOKEN';
+        const name: string = 'MyDedys3';
+        const symbol: string = 'Dedys3';
 
         super(maxSupply, decimals, name, symbol);
     }
